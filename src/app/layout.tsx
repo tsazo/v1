@@ -16,7 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} bg-zinc-100 text-zinc-900`}>
+        {/* <Container> Container will constrain the width to the desired margin*/}
+        {/* <Header /> */}
+        {children}
+        {/* <Footer /> */}
+        {/* </Container> */}
+      </body>
     </html>
   );
 }

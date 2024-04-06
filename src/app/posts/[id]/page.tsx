@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-    <main></main>
+    <main>Hi! Post 1</main>
   );
 }
